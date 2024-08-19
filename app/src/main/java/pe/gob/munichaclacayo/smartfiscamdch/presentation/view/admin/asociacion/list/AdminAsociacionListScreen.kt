@@ -31,6 +31,7 @@ fun AdminCategoryListScreen(navController: NavHostController){
             }
         },
         //modifier = Modifier.padding(16.dp)
+
     ) {paddingValues ->
         GetCategories(navController,paddingValues)
     }
