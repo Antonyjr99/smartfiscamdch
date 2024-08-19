@@ -1,5 +1,7 @@
 package pe.gob.munichaclacayo.smartfiscamdch.presentation.view.admin.asociacion.list
 
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
@@ -27,7 +29,8 @@ fun AdminCategoryListScreen(navController: NavHostController){
                     contentDescription = "d"
                 )
             }
-        }
+        },
+        //modifier = Modifier.padding(16.dp)
     ) {paddingValues ->
         GetCategories(navController,paddingValues)
     }

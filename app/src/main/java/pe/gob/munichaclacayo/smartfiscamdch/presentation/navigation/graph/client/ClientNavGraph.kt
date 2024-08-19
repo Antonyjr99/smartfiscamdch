@@ -7,7 +7,7 @@ import androidx.navigation.compose.composable
 import pe.gob.munichaclacayo.smartfiscamdch.presentation.navigation.Graph
 import pe.gob.munichaclacayo.smartfiscamdch.presentation.navigation.graph.profile.ProfileNavGraph
 import pe.gob.munichaclacayo.smartfiscamdch.presentation.navigation.screen.client.ClientScreen
-import pe.gob.munichaclacayo.smartfiscamdch.presentation.view.client.category.list.ClientCategoryListScreen
+import pe.gob.munichaclacayo.smartfiscamdch.presentation.view.client.Asociacion.list.ClientCategoryListScreen
 import pe.gob.munichaclacayo.smartfiscamdch.presentation.view.client.product.ClientProductListScreen
 import pe.gob.munichaclacayo.smartfiscamdch.presentation.view.profile.info.ProfileScreen
 
@@ -24,7 +24,7 @@ fun ClientNavGraph(navController: NavHostController) {
         }
 
         composable(route = ClientScreen.CategoryList.route) {
-            ClientCategoryListScreen()
+            ClientCategoryListScreen(navController)
         }
 
 
