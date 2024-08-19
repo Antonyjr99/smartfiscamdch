@@ -5,4 +5,6 @@ sealed class AdminCategoryScreen(val route: String) {
     object CategoryUpdate: AdminCategoryScreen("admin/category/update/{category}"){
         fun passCategory(category: String) = "admin/category/update/$category"
     }
+
+
 }

@@ -47,6 +47,7 @@ fun AdminCategoryListItem(navController: NavHostController, asociacion: Asociaci
             Modifier
                 .padding(start = 20.dp, end = 20.dp, top = 15.dp)
                 .height(90.dp)
+
         ) {
 
             Row(

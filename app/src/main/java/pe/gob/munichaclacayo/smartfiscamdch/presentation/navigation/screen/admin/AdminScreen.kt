@@ -19,8 +19,8 @@ sealed class AdminScreen(
 
     object ProductList: AdminScreen(
         route = "admin/product/list",
-        title = "Productos",
-        icon = Icons.Default.ThumbUp
+        title = "Motos",
+        icon = Icons.Default.List
     )
 
     object Profile: AdminScreen(

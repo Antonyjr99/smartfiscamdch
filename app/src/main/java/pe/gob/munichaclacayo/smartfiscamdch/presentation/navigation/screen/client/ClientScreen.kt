@@ -14,13 +14,13 @@ sealed class ClientScreen(
 ) {
     object CategoryList: ClientScreen(
         route = "client/category/list",
-        title = "Categorias",
+        title = "Asociaciones",
         icon = Icons.Default.List
     )
     object ProductList: ClientScreen(
         route = "client/product/list",
-        title = "Productos",
-        icon = Icons.Default.ThumbUp
+        title = "Motos",
+        icon = Icons.Default.List
     )
 
     object OrderList: ClientScreen(

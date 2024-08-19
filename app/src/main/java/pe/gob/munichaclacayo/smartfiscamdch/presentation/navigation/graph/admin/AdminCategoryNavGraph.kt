@@ -29,7 +29,8 @@ fun NavGraphBuilder.AdminCategoryNavGraph(navController: NavHostController) {
             it.arguments?.getString("category")?.let {
                 AdminCategoryUpdateScreen(navController, it )
             }
-
         }
+
+
     }
 }
